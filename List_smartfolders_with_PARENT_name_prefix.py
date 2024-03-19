@@ -22,8 +22,8 @@ def get_data(base_url, headers, payload):
 
 def api_calls():
     # The Smart Folder does not have a parent Smart Folder
-    region = "us-1"
-    api_key = "5BAB243A-4310-4EBE-81C7-E5FDDF6D5292:4B39AB66-A58A-A383-0074-CE5DB6D88D1A:UTF6P7LwyZQUqlX8PJ4/nplbeZ/HUriCr+2dnS5Nlmw="
+    region = "us-1" #check out your region
+    api_key = "<your API ke>" #add here your API key. It is only need read permissions.
     payload = {}
     headers = {
     'api-version': 'v1',
